@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="9dp"
+    android:background="#d3d3d3" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/rounded" >
+    	<ImageView
+    	    android:id="@+id/gridmain_iv"
+    	    android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_alignParentLeft="true"
+    		android:layout_alignParentRight="true"
+    		android:layout_alignParentTop="true"
+    		android:src="@drawable/ic_launcher"/>
+    	    
+    	<TextView 
+    	    android:id="@+id/gridmain_tv"
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_below="@id/gridmain_iv"
+    		android:layout_alignLeft="@id/gridmain_iv"
+    		android:padding="5dp"
+    		android:textColor="#000000"/>    
+    	        
+    </RelativeLayout>
+    
+
+</LinearLayout>
